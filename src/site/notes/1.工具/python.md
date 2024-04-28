@@ -41,7 +41,7 @@
 - [[使用python pandas库计算滑动相关系数\|使用python pandas库计算滑动相关系数]]
 
 **读取nc文件**
-- [[1.工具/使用python 读取ORAS5nc文件\|使用python 读取ORAS5nc文件]]——非均匀格网数据读取
+- [[1.说明文档/使用python 读取ORAS5nc文件\|使用python 读取ORAS5nc文件]]——非均匀格网数据读取
 
 **将nc文件转化为geotiff**
 - [[使用python osgeo库创建单波段geotiff文件\|使用python osgeo库创建单波段geotiff文件]]
