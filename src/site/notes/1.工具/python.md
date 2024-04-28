@@ -1,10 +1,88 @@
 ---
-{"dg-publish":true,"permalink":"/1.工具/python/"}
+{"dg-publish":true,"permalink":"/1.工具/python/","created":"2024-04-28T20:32:07.632+08:00"}
 ---
+
+
+# 指南
+[list2tab]
+- 基础
+	- [[python包管理 pip\|python包管理 pip]]
+	- [[python小脚本\|python小脚本]]
+-  基础库
+	- [[python库 virtualenv\|virtualenv库]]
+	- virtualenvwrapper库
+	- [[python库 pyinstaller\|pyinstaller库]]
+	- [[python库 itertools\|itertools库]]
+- 第三方库
+	- [[python库 pyqt5\|pyqt5库]]
+	- [[python库 cdsapi\|cdsapi库]]
+	- [[python库 sqlite3\|sqlite3库]]
+	- [[python库 matplotlib\|matplotlib库]]
+
+# 备注信息
+
+python安装位置： `C:\Users\Dell\AppData\Local\Programs\Python\Python38`
+清华源地址：`pip install [package] -i https://pypi.python.org/simple/`
+阿里云地址：`https://mirrors.aliyun.com/pypi/simple/`
+中国科技大学：`https://pypi.mirrors.ustc.edu.cn/simple/`
+豆瓣：`https://pypi.douban.com/simple/`
+
+
+# 计划表
+- [x] 浏览本地文件导入
+	- tkinter的filedialog模块，可见[[使用python scipy库线性插值#版本3.0\|使用python scipy库线性插值#版本3.0]]
+- [x] 窗口暂停，按任意键退出功能
+	- print方法，可见[[使用python scipy库线性插值#版本3.0\|使用python scipy库线性插值#版本3.0]]
+- [x] 列表元素排列组合
+	- itertools的combinations函数，可见[[使用python pandas库计算滑动相关系数#基础版本\|使用python pandas库计算滑动相关系数#基础版本]]
+- [ ] 
+
 
 # 流程
 
 ## 数据分析
 
+**数据下载**
+- [[使用python 下载cds ORAS5数据1958-2014\|使用python 下载cds ORAS5数据1958-2014]]
+
+**插值分析**
+- [[使用python scipy库线性插值\|使用python scipy库线性插值]]
+
+**相关分析**
+- [[使用python pandas库计算滑动相关系数\|使用python pandas库计算滑动相关系数]]
+
 **读取nc文件**
 - [[1.工具/使用python 读取ORAS5nc文件\|使用python 读取ORAS5nc文件]]——非均匀格网数据读取
+
+**将nc文件转化为geotiff**
+- [[使用python osgeo库创建单波段geotiff文件\|使用python osgeo库创建单波段geotiff文件]]
+	- SetGeoTransform参数使用？
+
+**对已知坐标提取点值**
+- [[使用python  geopandas库对geotiff提取点值\|使用python  geopandas库对geotiff提取点值]]
+
+
+## 读取数据库
+
+- 读取sqlite3数据库：[[python库 sqlite3\|python库 sqlite3]]
+
+## 绘制图像
+
+**绘制等值线图**
+- [[使用python matplotlib和cartory库绘制等值线图\|使用python matplotlib和cartory库绘制等值线图]]
+
+
+
+## 创建虚拟环境
+- 使用[[python库 virtualenv\|virtualenv库]]或virtualenvwrapper库创建虚拟环境
+- 使用[[python库 pyinstaller#在虚拟环境中打包程序\|python库 pyinstaller#在虚拟环境中打包程序]]
+
+## 图形化界面
+- 使用[[python库 pyqt5\|pyqt5库]]创建GUI
+	- [[python库 pyqt5#布局嵌套\|python库 pyqt5#布局嵌套]]
+	- [[python库 pyqt5#QBoxLayout 盒式布局\|python库 pyqt5#QBoxLayout 盒式布局]]
+	- [[python库 pyqt5#QGridLayout网格布局\|python库 pyqt5#QGridLayout网格布局]]
+	- [[python库 pyqt5#QFormLayout表单布局\|python库 pyqt5#QFormLayout表单布局]]
+	- [[python库 pyqt5#QStackedLayout抽屉布局\|python库 pyqt5#QStackedLayout抽屉布局]]
+
+
