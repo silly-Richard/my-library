@@ -27,16 +27,6 @@
 豆瓣：`https://pypi.douban.com/simple/`
 
 
-# 计划表
-- [x] 浏览本地文件导入
-	- tkinter的filedialog模块，可见[[使用python scipy库线性插值#版本3.0\|使用python scipy库线性插值#版本3.0]]
-- [x] 窗口暂停，按任意键退出功能
-	- print方法，可见[[使用python scipy库线性插值#版本3.0\|使用python scipy库线性插值#版本3.0]]
-- [x] 列表元素排列组合
-	- itertools的combinations函数，可见[[使用python pandas库计算滑动相关系数#基础版本\|使用python pandas库计算滑动相关系数#基础版本]]
-- [ ] 
-
-
 # 流程
 
 ## 数据分析
