@@ -6,7 +6,7 @@
 # 指南
 [list2tab]
 - 基础
-	- [[python包管理 pip\|python包管理 pip]]
+	- [[1.说明文档/python包管理 pip\|python包管理 pip]]
 	- [[1.说明文档/python小脚本\|python小脚本]]
 -  基础库
 	- [[1.说明文档/python库 virtualenv\|virtualenv库]]
