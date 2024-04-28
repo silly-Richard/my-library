@@ -9,9 +9,9 @@ SQLite 是一个C语言库，它可以提供一种轻量级的基于磁盘的数
 
 
 # 配置
-- [[在win上配置sqlit3\|在win上配置sqlit3]]
+- [[1.说明文档/在win上配置sqlit3\|在win上配置sqlit3]]
 
 # 使用
 
 - [[sqlite3语法\|sqlite3语法]]
-- 使用python api接口连接：[[python库 sqlite3\|python库 sqlite3]]
+- 使用python api接口连接：[[1.说明文档/python库 sqlite3\|python库 sqlite3]]
