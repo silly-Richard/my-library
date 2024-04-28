@@ -21,7 +21,6 @@
 
 # 备注信息
 
-python安装位置： `C:\Users\Dell\AppData\Local\Programs\Python\Python38`
 清华源地址：`pip install [package] -i https://pypi.python.org/simple/`
 阿里云地址：`https://mirrors.aliyun.com/pypi/simple/`
 中国科技大学：`https://pypi.mirrors.ustc.edu.cn/simple/`
