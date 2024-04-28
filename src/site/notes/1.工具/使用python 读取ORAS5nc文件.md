@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/1.工具/使用python 读取ORAS5nc文件/"}
+{"dg-publish":true,"permalink":"/1.工具/使用python 读取ORAS5nc文件/","created":"2024-04-28T20:33:59.264+08:00"}
 ---
 
 # 介绍
