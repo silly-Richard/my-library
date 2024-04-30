@@ -7,7 +7,6 @@
 [list2tab]
 - 基础
 	- [[1.说明文档/python包管理 pip\|python包管理 pip]]
-	- [[1.说明文档/python小脚本\|python小脚本]]
 -  基础库
 	- [[1.说明文档/python库 virtualenv\|virtualenv库]]
 	- virtualenvwrapper库
@@ -33,12 +32,6 @@
 
 **数据下载**
 - [[1.说明文档/使用python 下载cds ORAS5数据1958-2014\|使用python 下载cds ORAS5数据1958-2014]]
-
-**插值分析**
-- [[1.说明文档/使用python scipy库线性插值\|使用python scipy库线性插值]]
-
-**相关分析**
-- [[1.说明文档/使用python pandas库计算滑动相关系数\|使用python pandas库计算滑动相关系数]]
 
 **读取nc文件**
 - [[1.说明文档/使用python 读取ORAS5nc文件\|使用python 读取ORAS5nc文件]]——非均匀格网数据读取
